@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gideon Roman', cursive;
+    /* background-color: rgb(250, 73, 73); */
+}
+
+.navBar{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 10px 70px;
+}
+.navBar span{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.header ul{
+    display: flex;
+}
+.header ul li{
+    list-style: none;
+    margin: 0px 19px;
+}
+.header ul li a{
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+.right{
+    margin-left: 23px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 180px;
+    font-size: 18px;
+    text-transform: capitalize;
+    height: 40px;
+    /* border-radius: 12px; */
+}
+
+/* Intro container is here */
+.introContainer{
+    width: 90vw;
+    margin: 12px auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    background: url('Images/background.svg') no-repeat center center/cover;
+}
+.introContainer h1{
+    font-size: 48px;
+    margin: 12px 0px;
+    text-align: center;
+}
+.introContainer p{
+    font-size: 24px;
+    margin:  12px 0px;
+    text-align: center;
+}
+.introContainer button{
+    height: 60px;
+    margin: 18px 0px;
+    width: 200px;
+    font-size: 21px;
+}
+
+/* second container */
+.secondContainer{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    width: 98vw;
+    /* height: 100vh; */
+    margin:12px 0px;
+}
+#item-1{
+    display: flex;
+    flex-direction: column;
+    margin: 8% 0px;
+    justify-content: center;
+    align-items: center;
+}
+#item-1 h1{
+    font-size: 1.9rem;
+    font-weight: normal;
+    margin: 12px 0px;
+    text-align: center;
+}
+#item-1 p{
+    font-size: 33px;
+    margin:  19px 0px;
+    text-align: center;
+}
+#item-2 {
+    display: flex;
+    align-items: center;
+    width: 98vw;
+    justify-content: space-around;
+    margin: 12px 0px;
+}
+#item-2 .item-2-content{
+    display: flex;
+    width: 30vw;
+    padding: 43px;
+    flex-direction: column;
+}
+.item-2-content h2{
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    text-align: center;
+
+}
+.item-2-content h1{
+    font-size: 1.9rem;
+    margin: 10px 0px;
+    text-align: center;
+}
+.item-2-content p{
+    font-size: 19px;
+    margin: 12px 0px;
+    text-align: center;
+
+}
+.item-2-content button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    margin: 12px 0px;
+    color: white;
+    font-size: 22px;
+}
+#item-2 .item-2-image img{
+    width: 50vw;
+}
+
+#item-3 {
+    margin: 22px 0px;
+    display: flex;
+    align-items: center;
+    width: 98vw;
+    justify-content: space-around;
+}
+#item-3 .item-3-content{
+    display: flex;
+    width: 30vw;
+    padding: 43px;
+    flex-direction: column;
+}
+.item-3-content h2{
+    font-size: 23px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.item-3-content h1{
+    font-size: 42px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.item-3-content p{
+    font-size: 19px;
+    text-align: center;
+    margin: 12px 0px;
+}
+.item-3-content button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    margin: 12px 0px;
+    color: white;
+    font-size: 22px;
+}
+#item-3 .item-3-image img{
+    width: 50vw;
+}
+
+/* About container */
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.about-items{
+    height: 25vh;
+    margin: 12px;
+    flex: 1 0 50%;
+    color: gray;
+}
+#about-box-1{
+    flex: 0 1 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 23px;
+}
+#about-box-1 h2{
+    margin: 12px 0px;
+    font-weight: normal;
+    color:  black;
+    font-size: 19px;
+}
+#about-box-1 h1{
+    font-size: 42px;
+    color: black;
+}
+#about-box-2{
+    flex: 0 1 25%;
+    height: 40%;
+    padding: 23px;
+}
+#about-box-3{
+    flex: 1 2 25%;
+    height: 40%;
+    padding: 23px;
+}
+
+#about-box-4{
+    flex: 2 3 25%;
+    padding: 23px;
+    height: 40%;
+}
+.about-item-heading{
+    font-size: 28px;
+    font-weight: normal;
+    color: black;
+    margin: 12px 0px;
+}
+.date{
+    margin: 12px 0px;
+}
+
+.bottom-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 23px;
+    overflow: scroll;
+    margin: 20px 0px;
+    row-gap: 1.2rem;
+}
+.bottom-box-item{
+    width: 50%;
+    text-align: center;
+}
+.bottom-box p{
+    font-size: 21px;
+    line-height: 28px;
+}
+.bottom-box .btn{
+    width: 200px;
+    height: 50px;
+    padding: 12px;
+}
+
+/* Media queries to make it responsive */
+@media screen and (min-width: 840px) and (max-width: 965px) {
+    .navBar{
+        height: 70px;
+        flex-wrap: wrap;
+    } 
+    .right{
+        margin: 12px auto;
+        width: 150px;
+    }
+    .right .btn{
+        margin: auto;
+    }
+  }
+
+@media screen and (min-width: 728px)  and (max-width: 840px){
+    .navBar{
+        height: 100px;
+        flex-wrap: wrap;
+    }
+    .navBar nav {
+        width: 80%;
+    } 
+    .right{
+        margin: 12px auto;
+        width: 150px;
+    }
+    .right .btn{
+        margin: auto;
+    }
+    #item-1{
+        height: 200px;
+    }
+    #item-2{
+        height: 500px;
+    }
+    #item-3{
+        height: 500px;
+    }
+    #about-box-2{
+        flex: 0 1 40%;
+        height: 40%;
+        padding: 23px;
+    }
+    #about-box-3{
+        flex: 1 2 40%;
+        height: 40%;
+        padding: 23px;
+    }
+  }
+@media screen and (min-width: 375px)  and (max-width: 728px){
+    .navBar{
+        height: 100px;
+        flex-wrap: wrap;
+    }
+    .navBar .left{
+        margin: auto;
+        width: 150px;
+        display: block;
+    }
+    .navBar nav {
+        width: 80%;
+    } 
+    .right{
+        margin: 12px auto;
+        width: 150px;
+    }
+    .right .btn{
+        margin: auto;
+    }
+    #item-1{
+        height: 200px;
+    }
+    #item-2{
+        height: 500px;
+    }
+    #item-3{
+        height: 500px;
+    }
+    #about-box-2{
+        flex: 0 1 100%;
+        height: 40%;
+        padding: 23px;
+    }
+    #about-box-3{
+        flex: 1 2 100%;
+        height: 40%;
+        padding: 23px;
+    }
+    #item-3 .item-3-image img{
+        width: 40vw;
+    }
+  }
